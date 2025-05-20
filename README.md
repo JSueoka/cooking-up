@@ -1,40 +1,47 @@
-# cookin-up
+# 🍳 Cooking Up
 
-This template should help get you started developing with Vue 3 in Vite.
+Projeto desenvolvido em **Vue 3 + TypeScript + Vite**, com foco em **aprendizado prático** dos conceitos da framework Vue.  
+Este projeto foi realizado como parte dos estudos no curso da **Alura**.
 
-## Recommended IDE Setup
+A proposta é simular uma aplicação onde o usuário pode montar receitas com base em categorias de ingredientes, utilizando reatividade, componentes, props, diretivas e consumo de API.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+---
 
-## Type Support for `.vue` Imports in TS
+## ✨ Funcionalidades
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+- ✅ Listagem de categorias de ingredientes
+- ✅ Componente para visualização de cada categoria
+- ✅ Adição e remoção de ingredientes da "sua lista"
+- ✅ Utilização de props e eventos personalizados
+- ✅ Organização dos dados via interface TypeScript
+- ✅ Estilização responsiva com CSS
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+---
 
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+## 🧠 Tecnologias e conceitos aplicados
 
-## Customize configuration
+- Vue 3
+- TypeScript
+- Vite
+- Componentização
+- Props e Emits
+- Diretivas
+- Lifecycle hooks (`created`)
+- CSS scoped
+- Reatividade e estado
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+---
 
-## Project Setup
+## 🛠️ Como rodar o projeto
 
-```sh
-npm install
-```
+### Pré-requisitos
 
-### Compile and Hot-Reload for Development
+- Node.js (versão 16 ou superior)
+- npm
 
-```sh
-npm run dev
-```
+---
 
-### Type-Check, Compile and Minify for Production
+## 📚 Fontes de aprendizado
+Curso Vue 3: entendendo componentes, diretivas e reatividade no framework (Alura)
 
-```sh
-npm run build
-```
+Documentação oficial do Vue.js
